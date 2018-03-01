@@ -4,14 +4,14 @@
     <p class="lead">Terrance & Nick | CSCI 428</p>
   </div>
 </div>
-<div style="text-align:center">
+<div style="text-align:left">
   <h1 class="display-4">What does this application do?</h1>
   <ul style="display: inline-block; text-align:left">
       <li style="font-size: 1.5em"> Allows you log into your facebook account </li>
       <li style="font-size: 1.5em"> Pulls your profile picture along with your first and last name </li>
   </ul>
-</div>
-<div style="text-align:center">
+
+
   <h1 class="display-4">Want to Learn more? </h1>
     <ul style="display: inline-block; text-align:left">
         <li style="font-size: 1.5em;">  <%= link_to "Understanding facebook applications", '/app/info' %>  </li>
@@ -19,11 +19,11 @@
         <li style="font-size: 1.5em;">   <%= link_to 'Facebook Developers site', 'https://developers.facebook.com/', target: :_blank %>  </li>
         <li style="font-size: 1.5em;"><%=link_to 'View all permissions here', 'https://developers.facebook.com/docs/facebook-login/permissions', target: :_blank %>  </li>
     </ul>
-  </div>
+
 
     <br />
     <br />
-  <div style="text-align:center">
+  
     <h1 class="display-3">Try it out for yourself </h1>
     <p class="lead"> Click this link: </p>
   <%= link_to "Facebook Login", '/auth/facebook', {style:'font-size:3em'}%>
